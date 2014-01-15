@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- @ifdef DIST !>
+<html lang="en" manifest="./manifest.appcache">
+<!-- @endif -->
+<!-- @exclude -->
+<html lang="en">
+<!-- @endexclude -->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Test Mongodb</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico" />
+
+        <!-- iPhone SPLASHSCREEN-->
+        <link href="images/iOS-Splash-320x460.jpg" media="(device-width: 320px)" rel="apple-touch-startup-image">
+        <!-- iPhone (Retina) SPLASHSCREEN-->
+        <link href="images/iOS-Splash-640-920.jpg" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPhone5 (Retina) SPLASHSCREEN-->
+        <link href="images/iOS-Splash-640-1096.jpg" rel="apple-touch-startup-image" sizes="640x1096">
+        <!-- Windows Start Screen -->
+        <meta name="application-name" content="Test Mongodb"/>
+        <!-- iOS Homescreen Icon -->
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+        <!--iOS Mobile Webapp Capable -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Viewport Settings -->
+        <meta name="viewport" content="initial-scale=1, user-scalable=no">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+        <!-- build:js scripts/index.js -->
+        <script src="index.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

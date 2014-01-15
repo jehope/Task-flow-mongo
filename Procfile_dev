@@ -1,0 +1,4 @@
+web: ./node_modules/.bin/supervisor -w server --debug -n exit server/server.js
+grunt: grunt foreman:$PORT
+inspector: node-inspector
+mongo: mongod
